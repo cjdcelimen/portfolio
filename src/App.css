@@ -396,6 +396,14 @@
   }
 
   .social-menu {
-    left: 0;
+    left: 0px;
+    bottom: 250px;
+  }
+
+  .social-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
   }
 }
