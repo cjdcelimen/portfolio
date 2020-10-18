@@ -396,8 +396,9 @@
   }
 
   .social-menu {
-    left: 0px;
-    bottom: 250px;
+    position: relative;
+    padding-right: 70px;
+    padding-left: 70px;
   }
 
   .social-menu ul {

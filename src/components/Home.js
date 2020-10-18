@@ -12,9 +12,9 @@ export const Home = () => {
         <div className='swipe-title'>
           <h1>Christopher Celimen</h1>
         </div>
-      <div className='swipe-subtitle'>
-        <h3>Front-end Developer</h3>
-          </div>
+        <div className='swipe-subtitle'>
+          <h3>Front-end Developer</h3>
+        </div>
         <div className='social-menu' >
           <ul>
             <li className='social-menu-item'><FaFacebookF /></li>
