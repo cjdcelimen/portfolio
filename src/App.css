@@ -151,6 +151,7 @@
   font-weight: 500;
   padding: 15px 25px;
   animation: hideText 0.7s forwards;
+  letter-spacing: 0.3rem;
 }
 
 .swipe-subtitle {
@@ -179,6 +180,7 @@
   padding: 10px 15px;
   opacity: 0;
   animation: hideText 1s forwards;
+  letter-spacing: 0.3rem;
 }
 
 @keyframes hideText {
@@ -252,6 +254,7 @@
   font-size: 55px;
   font-weight: 100;
   line-height: 1.1em;
+  letter-spacing: 0.3rem;
 }
 
 .contact-wrapper-container {
@@ -392,20 +395,17 @@
   background-color: #000;
 }
 
-@media screen and (min-width: 992px) {
-  .section {
-    width: 95vw;
-  }
-}
 .about-title {
+  margin-top: 4rem;
   margin-bottom: 4rem;
   text-align: center;
+  letter-spacing: 2;
 }
 
 .about-title h1,
 .job-info h3,
 .job-info h4 {
-  letter-spacing: 1;
+  letter-spacing: 0.3rem;
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
@@ -413,6 +413,7 @@
 
 .jobs-center {
   width: 80vw;
+  height: 100vh;
   margin: 0 auto;
   max-width: 1170px;
 }
@@ -438,11 +439,11 @@
   color: #807878;
 }
 .job-btn:hover {
-  color: #807878;
+  color: #fff;
   box-shadow: 0 2px #807878;
 }
 .active-btn {
-  color: #807878;
+  color: #fff;
   box-shadow: 0 2px #807878;
 }
 
@@ -493,7 +494,7 @@
     box-shadow: -2px 0 #807878;
   }
   .job-btn:hover {
-    box-shadow: -2px 0 #807878;
+    box-shadow: -2px 0 #fff;
   }
 }
 
