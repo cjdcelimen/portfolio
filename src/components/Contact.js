@@ -6,7 +6,7 @@ export const Contact = () => {
       <div className='contact-wrapper'>
         <h1 className='contact-message'>For the appreciation of design and continuous innovation, let's collaborate.</h1>
       </div>
-      <div className='contact-wrapper-container'>
+      {/* <div className='contact-wrapper-container'>
         <div className='contact-wrapper-form'>
           <h2>Contact Me</h2>
           <div className='row100'>
@@ -40,7 +40,7 @@ export const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
